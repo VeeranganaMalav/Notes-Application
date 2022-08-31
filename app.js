@@ -53,7 +53,7 @@ function showNotes(){
     });
 
     let notesElem = document.getElementById('notes');
-    if(notes.length != 0){
+    if(notesObj.length !== 0){
         notesElem.innerHTML = html;
     }
     else{
